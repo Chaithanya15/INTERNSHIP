@@ -1,0 +1,49 @@
+The provided Python script performs log analysis on Windows Event Logs based on specified Event IDs and filters out specific Source Names. It creates separate output files for System, Application, and Security logs, and then applies filters to those logs, generating filtered output files for each category. Finally, it prints the filtered logs for each category.
+
+To use this script, you can follow these steps and write a README file:
+
+Script Usage:
+
+Ensure you have an input.txt file containing Event IDs you want to analyze.
+Create a filter.txt file with Source Names to filter logs.
+Running the Script:
+
+Place the script in the same directory as the input and filter files.
+Run the script using a Python interpreter: python script_name.py.
+Output:
+
+The script will generate output files for System, Application, and Security logs.
+Filtered output files will be generated for each log category.
+Filtered Logs:
+
+The script prints filtered logs for each category to the console.
+README File:
+
+README file (README.md or README.txt) with instructions for script usage and an overview of its purpose.
+Include information on preparing the input and filter files, running the script, and interpreting the filtered logs.
+Example README content:
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Windows Event Log Analyzer
+
+This Python script analyzes Windows Event Logs based on specified Event IDs and filters logs by Source Names. It generates filtered output files for System, Application, and Security logs.
+
+## Prerequisites
+1. Ensure you have an `input.txt` file containing Event IDs you want to analyze.This input.txt file contains list of suspecious event IDs
+2. Create a `filter.txt` file with Source Names to filter logs.This file consists of genuine publishers names which needs to be excluded from logs to pinpoint only those logs suspecious logs.
+
+## Usage
+1. Place the script (`event_log_analyzer.py`) in the same directory as the input and filter files.
+2. Open a terminal or command prompt.
+3. Run the script using a Python interpreter: `python event_log_analyzer.py`.
+
+## Output
+- The script generates output files (`system_output.txt`, `application_output.txt`, `security_output.txt`) for each log category. This output helps in listing the logs with suspecious event IDs
+- As a 2nd level of filteration it generates Filtered output files (`filtered_system_output.txt`, `filtered_application_output.txt`, `filtered_security_output.txt`) after applying Source Name filters.
+As a dual level , after filtering based on genuine publishers , script will throw the output of suspecious files with suspecious event id and unknown/suspecious publisher
+
+## Viewing Filtered Logs
+- The script prints filtered logs for each category to the console.
+
+For more details, consult the script's inline comments and documentation.
+Remember to replace event_log_analyzer.py with the actual name of your script. This README file will provide users with clear instructions on using the script for log analysis and customization.
