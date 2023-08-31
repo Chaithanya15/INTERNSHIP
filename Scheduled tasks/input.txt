@@ -1,0 +1,107 @@
+Microsoft
+Adobe Inc
+VMware NAT Service
+Event Log Publishers
+Linux Syslog
+Service Control Manager
+Apache HTTP Server
+Nginx Web Server
+Google Cloud Platform
+Amazon Web Services
+Microsoft IIS (Internet Information Services)
+Database management systems 
+MySQL
+Microsoft Azure
+HP Analytics service
+PostgreSQL
+Oracle
+Firewall
+security systems 
+Cisco ASA
+VMware ESXi
+Microsoft Hyper-V
+Cloud service providers   
+Cisco 
+Juniper Networks
+Intrusion Detection/Prevention Systems (IDS/IPS)
+Load Balancers
+DNS Servers
+DHCP Servers
+VPN Gateways
+Splunk
+HP
+Realtek Bluetooth Device Manager Service
+ELK Stack (Elasticsearch, Logstash, Kibana)
+Graylog
+Nagios
+Zabbix
+Prometheus
+Windows Event Log
+Windows Security Log
+Windows System Log
+Windows Application Log
+Windows DNS Server Log
+Windows DHCP Server Log
+Windows Active Directory Logs
+Syslog
+Systemd Journal
+Kernel Log (dmesg)
+Secure Log (auth.log)
+Application Logs
+Unified Logging System (ULS)
+System Log (syslog)
+Cisco IOS Logs (routers, switches)
+Juniper Junos Logs (routers, switches)
+Firewall Logs 
+Cisco ASA
+Check Point 
+Palo Alto Networks
+Load Balancer Logs
+VMware ESXi Logs
+Microsoft Hyper-V Logs
+Xen Logs
+KVM Logs
+MySQL Logs
+svchost.exe
+Oracle Database Logs
+Microsoft SQL Server Logs
+MySQL Logs
+PostgreSQL Logs
+VMware
+Oracle Database Logs
+Microsoft SQL Server Logs
+Security Information and Event Management (SIEM) Logs
+Anti-virus and Anti-malware Logs
+Network Monitoring Logs
+VideoLAN
+Ignis Service
+BdDci Service
+VMware Authorization Service
+TAP-Windows Adapter V9
+bdvpn_netfilter
+NortonLifeLock Inc. (Norton)
+McAfee
+LLC (McAfee)
+RTKVHD64.sys
+HP Application Driver
+VMware Authorization Service
+Avast Software (Avast)
+Avira Operations GmbH & Co. KG (Avira)
+Bitdefender
+igfx
+JetBrains (IntelliJ IDEA)
+USB Video Device (WDM)
+Eclipse Foundation (Eclipse)
+Microsoft Corporation (SharePoint)
+Realtek Bluetooth Filter Driver
+Intel(R)
+vlflt.sys
+gemma.sys
+atc.sys
+bdprivmon.sys
+bduefiscan.sys
+bdelam.sys
+pfSense
+RTKVHD64.sys
+usbscan.sys
+
