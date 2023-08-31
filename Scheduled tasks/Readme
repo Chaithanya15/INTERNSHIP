@@ -1,0 +1,30 @@
+# Scheduled Tasks Analyzer
+
+The Scheduled Tasks Analyzer is a Python script that retrieves and categorizes scheduled tasks on a Windows system using the `schtasks` command. It generates Excel files containing task details and offers the ability to exclude specific tasks based on Genuine publishers.
+
+## Prerequisites
+1. Python installed on your system.
+2. [OpenPyXL](https://openpyxl.readthedocs.io/en/stable/) library for working with Excel files. You can install it using `pip install openpyxl`.
+
+## Usage
+1. Place the script (`scheduled_tasks_analyzer.py`) and an `input.txt` file (optional) in the same directory.
+2. Run the script: `python scheduled_tasks_analyzer.py`.
+3. The script retrieves scheduled tasks and creates two Excel files:
+   - `all_scheduled_tasks.xlsx`: Contains details of all scheduled tasks.
+   - `filtered_tasks.xlsx`: Contains details of tasks filtered based on exclusion publishers.
+
+## Excluding Tasks
+You can specify keywords in the `input.txt` file, with each publisher on a separate line. The script will exclude tasks containing these keywords from the filtered Excel file.
+
+## Viewing Excel Files
+Open the generated Excel files using software like Microsoft Excel or LibreOffice Calc to view and analyze the scheduled tasks. The files will be saved in the same directory as the script.
+
+## Important Notes
+- This script is intended for educational and informational purposes. Use responsibly and ensure you have appropriate permissions to access scheduled tasks on your system.
+- The script is designed for Windows systems and requires administrative privileges to fetch task details.
+- The `input.txt` file is optional. If not provided, all tasks will be included in both Excel files.
+
+For more details, consult the script's inline comments and documentation.
+
+---
+Note: Always exercise caution and respect system security when working with administrative tasks and scheduling on your computer.
