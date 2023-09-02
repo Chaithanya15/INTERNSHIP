@@ -1,0 +1,37 @@
+# Windows Startup Entries Analyzer
+
+The Windows Startup Entries Analyzer is a Python script designed to retrieve and analyze startup entries in the Windows registry. It calculates hash values of startup entries' paths and compares them with provided hash values from an input file, highlighting matching entries. The results are stored in an Excel file for easy analysis.
+
+## Prerequisites
+1. Python installed on your system.
+2. Required Python libraries: `winreg`, `openpyxl`, `hashlib`, `pandas`. Install them using `pip install winreg openpyxl pandas`.
+
+## Usage
+1. Place the script (`startup_entries_analyzer.py`) and an `input.txt` file containing hash values (one per line) in the same directory.
+2. Run the script: `python startup_entries_analyzer.py`.
+3. The script retrieves startup entries from the Windows registry, compares them with the provided hash values, and generates an Excel file (`all_entries.xlsx`) with analysis results.
+
+## Analyzed Data
+The generated Excel file contains the following columns:
+- User Name: The name of the user associated with the startup entry.
+- User Type: The user type (Administrator/User) for the startup entry.
+- Name: The name of the startup entry.
+- Path: The path of the startup entry.
+- Hash Value: The calculated hash value of the startup entry's path.
+- Matched: A status indicating whether the startup entry's hash value matches any in the provided input file.
+
+## Highlighting Matched Entries
+Matched entries are highlighted in a custom color (default is yellow) for easy identification in the Excel file.
+
+## Important Notes
+- The script requires administrative privileges to access the Windows registry.
+- The `input.txt` file should contain hash values (one per line) to compare with startup entries' hash values. Ensure correct hash algorithms are used.
+- Use this script responsibly and ensure you have appropriate permissions to access registry data on your system.
+
+For more details and customization options, refer to the script's inline comments and documentation.
+
+---
+Note: Always exercise caution and respect system security when working with administrative tasks on your computer.
+
+
+Replace startup_entries_analyzer.py with the actual name of your script. This README provides instructions on using the script, understanding the generated Excel file, the analyzed data columns, and important considerations while using the tool.
