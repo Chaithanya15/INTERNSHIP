@@ -1,0 +1,43 @@
+# Windows Hidden File Scanner
+
+The Windows Hidden File Scanner is a Python script designed to scan hidden files on Windows systems. The script provides multiple scanning options, including searching for hidden files only, scanning all files, or scanning based on specific file extensions. Detected hidden files can be logged for analysis.
+
+## Prerequisites
+1. Python installed on your system.
+2. Required Python libraries: `psutil`, `keyboard`. Install them using `pip install psutil keyboard`.
+
+## Usage
+1. Place the script (`hidden_file_scanner.py`) and a configuration file (`config.ini`) in the same directory.
+2. Customize the configuration in `config.ini`, including quarantine settings and maximum threads (if required).
+3. Run the script: `python hidden_file_scanner.py`.
+4. Choose the scanning option based on hidden files, all files, or specific extensions.
+
+## Scanning Options
+1. **Search only Hidden files:** Scans and logs only hidden files.
+2. **Search All files:** Scans and logs all files.
+3. **Search for Hidden files based on .Extension:** Scans and logs files with specific extensions.
+
+## Results and Logs
+- Scanned files and detected infected files are logged based on the scanning option selected.
+- Summary statistics, including the number of scanned files, infected files, and elapsed time, are displayed at the end of the scan.
+
+## Important Notes
+- The script supports multi-threaded scanning for efficient hidden file detection.
+- Detected hidden files can be logged for analysis.
+- The `config.ini` file allows you to customize the scanning behavior and quarantine settings.
+
+## Customization
+- Modify the `config.ini` file to adjust settings such as quarantine, maximum threads, and more.
+- Choose from different scanning options based on your needs.
+
+## Exit
+1. Press `Ctrl+C` to stop the scanning process.
+2. Press `Ctrl+V` to resume scanning after a pause.
+
+---
+Note: Use this script responsibly and exercise caution while handling hidden files. Always ensure you have appropriate permissions to access system resources.
+
+
+
+
+Replace hidden_file_scanner.py with the actual name of your script. This README provides instructions on using the script, customizing the configuration, different scanning options, logging, and other important considerations while using the tool.
